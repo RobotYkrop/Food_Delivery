@@ -76,3 +76,113 @@ body {
     padding: 5px;
     border-radius: 50%;
 }
+.slide {
+    color: white;
+    background: gray;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+.slide-content {
+    max-width: 400px;
+}
+.slide-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 51px;
+}
+.slide-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.button {
+    border-radius: 25px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+}
+.button-primery {
+    background: #F47322;
+    padding: 12px 50px;
+    display: inline-block;
+    color: white;
+}
+.button-default {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    background-color: white;
+    color: #5F5F61;
+    text-decoration: none;
+    padding: 12px 50px;
+    max-width: 240px;
+}
+.slide-summer {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(/img/summer.png) no-repeat;
+    background-size: cover;
+}
+.promo {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+    padding: 32px;
+    
+    min-height: 380px;
+}
+.sweet-basket {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/pirog.png) no-repeat;
+    background-size: cover;
+    margin-right: 54px;
+}
+.salat-basket {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/salat.png) no-repeat;
+    background-size: cover;
+}
+.content {
+    min-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin-top: 4px;
+    margin-bottom: 21px;
+}
+.card-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 200px;
+}
+.card-price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    display: block;
+    margin-bottom: 8px;
+}
+.card-delivery {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    display: block;
+    margin-bottom: 25px;
+}
