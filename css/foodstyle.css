@@ -374,16 +374,18 @@ body {
     padding-top: 30px;
 }
 .advantages-title {
-    padding-top: 34px;
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
+    margin-left: 43px;
+    margin-right: 43px;
 }
 .advantages-description {
-    padding-top: 13px;
     color: #49494F;
     font-size: 14px;
     line-height: 22px;
+    margin-left: 23px;
+    margin-right: 23px;
 }
 .footer {
     background: #F6F6F6;
