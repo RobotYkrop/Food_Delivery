@@ -131,6 +131,14 @@ body {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(/img/summer.png) no-repeat;
     background-size: cover;
 }
+.slide-autumn {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(/img/osen.png) no-repeat;
+    background-size: cover;
+}
+.slide-vitamin {
+    background: linear-gradient(90deg, rgba(14, 14, 14, 0.43) 43.17%, rgba(0, 0, 0, 0) 100%), url(/img/vitamin.png) no-repeat;
+    background-size: cover;
+}
 .promo {
     display: flex;
     padding-top: 50px;
@@ -327,6 +335,22 @@ body {
     line-height: 20px;
     color: #AAAAB1;
 }
+.slider-buttons {
+    position: absolute;
+    right: 46px;
+    bottom: 40px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}
+.slider-button {
+    cursor: pointer;
+}
+.swiper {
+    position: relative;
+}
 .button-outline {
     cursor: pointer;
     padding: 15px 25px;
@@ -413,4 +437,60 @@ body {
 .social-link {
     margin-left: 20px;
     text-decoration: none;
+}
+@media (max-width: 1260px) {
+    .container {
+        max-width: 960px;
+    }
+    .search-form {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .tabs-content {
+        flex-wrap: wrap;
+    }
+    .tabs-card {
+        flex: 50%;
+        max-width: calc(50%-30px);
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+    .slide {
+        padding: 70px;
+    }
+    .delivery-card {
+        width: calc(50%-30px);
+    }
+    .footer-logo {
+        margin-right: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 560px;
+    }
+    .header {
+        flex-wrap: wrap;
+    }
+    .search-form {
+        order: 5;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .promo {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+    .tabs-card {
+        max-width: 100%;
+    }
 }
